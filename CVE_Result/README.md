@@ -1,4 +1,4 @@
-# CVE dense emebddings dataset search performance
+# CVE dense embeddings dataset search performance
 
 Here is the full visual analysis of the CVE spectral search test across 18 vulnerability queries, comparing **Cosine (τ=1.0)**, **Hybrid (τ=0.72)**, and **Taumode (τ=0.42)** methods. Unlike the Dorothea classification experiment where λ failed, the CVE search results show **Taumode delivering consistent improvements** — the manifold L = Laplacian(Cᵀ) provides operationally useful structure for retrieval.
 
